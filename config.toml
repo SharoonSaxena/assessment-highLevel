@@ -1,0 +1,9 @@
+[preprocess]
+workers = 8
+chunks = 80
+drop_columns = ['Unnamed: 0']
+missing_string = 'missing'
+
+[model]
+max_len = 400
+device = "cuda"
