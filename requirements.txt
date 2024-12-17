@@ -4,3 +4,5 @@ matplotlib
 joblib
 tqdm
 transformers
+datasets
+torchmetrics

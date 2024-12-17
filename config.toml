@@ -1,9 +1,13 @@
 [preprocess]
 workers = 8
-chunks = 80
+chunks = 64
 drop_columns = ['Unnamed: 0']
-missing_string = 'missing'
+missing_string = 'missing! information not found'
+test_split = 0.10
 
 [model]
-max_len = 400
+max_len = 2500
 device = "cuda"
+epochs = 10
+batch_size = 128
+lr=0.000000001
