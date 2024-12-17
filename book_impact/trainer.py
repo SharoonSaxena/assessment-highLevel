@@ -1,7 +1,3 @@
-"""
-This module contains all the low level components required for dispo model training process
-"""
-
 import datasets
 import torch
 import json
